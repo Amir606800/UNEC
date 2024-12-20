@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#head{
+  font-size: 100px;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .screen{
+    font-weight: 900;
+    font-size: 50px;
+    padding: 20px;
+    border: 4px rgb(255, 255, 255) solid;
+    margin: 1em;
+    width: 5em;
+    transform: scale(1.2);
+  }
+  .buttons{
+    transform: scale(2);
+    display: flex;
+    gap: 20px;
+    margin:3em;
+  }
+}
